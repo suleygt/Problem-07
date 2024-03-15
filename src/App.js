@@ -8,8 +8,8 @@ function Avatar(props) {
         <div>
           <Image
             className='inline-block h-12 w-12 rounded-full'
-            src='/photo.png'
-            alt=''
+            src= {props.imageSrc}
+            alt={props.name}
             width={500}
             height={500}
           />
